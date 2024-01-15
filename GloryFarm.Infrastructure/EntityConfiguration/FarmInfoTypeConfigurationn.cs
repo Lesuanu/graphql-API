@@ -11,6 +11,7 @@ namespace GloryFarm.Infrastructure.EntityConfiguration
 {
     public class FarmInfoTypeConfigurationn : IEntityTypeConfiguration<Farm>
     {
+        //model configuration
         public void Configure(EntityTypeBuilder<Farm> builder)
         {
             builder
